@@ -1,0 +1,17 @@
+  .description {
+  text-decoration: none;
+  margin:0px;
+  margin-top: 2em;
+  padding:0px;
+  font-size:16px;
+  font-family: Verdana, Cursiva serif;
+  //background: #B40431;
+}
+
+.gif {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 200px;
+  background-color: white;
+}
