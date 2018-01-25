@@ -1,23 +1,82 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>CSS/HTML Workshop with Convargo</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="index.css" />
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <title>CSS/HTML Workshop with Convargo Imane Dyani</title>
   </head>
+  
   <body>
-    <div id="trucker">
-      <input class="name" type="text" placeholder="Trucker name"/>
-      <input class="price-by-km" type="number" placeholder="Price by km"/>
-      <input class="price-by-cubic" type="number" placeholder="Price by m3"/>
-    </div>
-    <div id="shipper">
-      <input class="name" type="text" placeholder="Shipper name"/>
-      <input class="distance" type="number" placeholder="Distance in km"/>
-      <input class="volume" type="number" placeholder="Volume in m3"/>
-      <input class="option" type="checkbox" placeholder="Deductible option"/>
-    </div>
-    <button id="compute">Compute</button>
-    <div id="actors"></div>
-    <script src="convargo.js"></script>
-    <script src="index.js"></script>
-  </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+     <script src="bootstrap/js/bootstrap.min.js"></script>
+	 
+	 <!-- Logo Esilv -->
+   <img src="C:/Users/Jacky/Desktop/ESILV 2017-2018/S8/WebApplicationArchitecture/dress-up-convargo/public/img/esilv.png" alt="Logo Esilv" width="400" height="138"> 
+   <!-- Agencement gif  -->
+   <div class="gif">
+	   <!--<span style="position: absolute; bottom: right; left: 1000px; width: 242px; 
+		heigth: 84px;"> -->
+		<IMG src="C:/Users/Jacky/Desktop/ESILV 2017-2018/S8/WebApplicationArchitecture/dress-up-convargo/public/img/camion-image-animee-0013.gif">
+	</div>
+	 
+		<!-- TRUCKER -->
+	   <div class="container">  
+			<div class="row">
+				<div class="col-sm-4">
+				<div id="trucker" >
+				<h2>Trucker</h2>
+					<div>				
+						<p>Trucker Name:</p>
+						<input class="name" type="text" placeholder="Trucker Name" />
+					  </div>
+					  <div>
+						<p>Price by km </p>
+						<input class="price-by-km" type="number" placeholder="Price by km" />
+					  </div>
+					  <div>
+						<p>Price per m3:</p>
+						<input class="price-by-cubic" type="number" placeholder="Price by m3" />
+					  </div>
+					  <!--<p>Deductible option:</p>-->
+					  <label for="Deductible option">Check for deductible option</label>
+					  <input class="option" type="checkbox" placeholder="Deductible option" />
+				</div>
+				</div>
+		
+
+		   
+		 <!-- SHIPPER -->
+			   <div class="col-sm-4">
+				<div id="shipper">
+				  <h3>Shipper</h3>
+				  <div>
+					<p>Shipper Name:</p>
+					<input class="name" type="text" placeholder="Shipper Name" />
+				  </div>
+				  <div>
+					<p>Distance:</p>
+					<input class="distance" type="number" placeholder="Distance in km" />
+				  </div>
+				  <div>
+					<p>Volume:</p>
+					<input class="volume" type="number" placeholder="Volume in m3" />
+				  </div>
+				</div>
+				<button id="compute">Compute</button>
+			  </div>
+			  
+			  <div class=col-sm-4>
+				<div id="actors"></div>
+			  </div>
+			</div>
+		  </div>
+
+		  <script src="convargo.js"></script>
+		  <script src="index.js"></script>
+</body>
+
 </html>
