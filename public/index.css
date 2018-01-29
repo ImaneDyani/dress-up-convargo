@@ -5,9 +5,8 @@
   padding:0px;
   font-size:16px;
   font-family: Verdana, Cursiva serif;
-  //background: #B40431;
 }
-
+/*
 .gif {
   position: fixed;
   bottom: 0;
@@ -15,3 +14,71 @@
   width: 200px;
   background-color: white;
 }
+*/
+#index2 {
+  margin: 0;
+  padding: 0;
+  /*background-color: #B40431;*/
+}
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+/* Image de fond convargo*/
+
+/* Style Introduction */
+#Introduction {
+/* background: C:/Users/Jacky/Desktop/ESILV 2017-2018/S8/WebApplicationArchitecture/dress-up-convargo/public/img/convargo1.jpg;*/
+ background: url("img/convargo1.jpg");
+ margin-top: -10px;
+ padding-top: 20px;
+ text-align: center;
+ background-attachment: relative;
+ background-position: center center;
+ min-height: 700px;
+ width: 100%;
+  font-family: 'Raleway', sans-serif;
+  
+ -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+            
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+/* Welcome to Convargo*/         
+#Introduction h1 {
+ margin-top: 150px;
+ color: black;
+ font-size: 50px;
+ font-weight: 700;
+}
+
+/*Ship your goods simply, quickly, cheaper*/            
+#Introduction h3 {
+ color: black;
+ font-size: 30px;
+ font-weight: 100;
+ font-family: 'Raleway', sans-serif;
+ font-style: oblique;
+}
+
+
+.buttons button {
+  border-radius: 3em;
+  color: black;
+  padding: 1em 2em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  margin: 3em 1em;
+  cursor: pointer;
+}
+
+
+

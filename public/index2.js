@@ -21,7 +21,7 @@
     document.querySelector('#actors').appendChild(fragment);
   };
 
-  //const button = document.querySelector('#compute');
+  const button = document.querySelector('#compute');
 
   button.addEventListener('click', function onClick () {
     const trucker = CONVARGO.getTrucker();
